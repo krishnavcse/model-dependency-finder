@@ -1,0 +1,29 @@
+{
+    "name": "krishnavcse/model-dependency-finder",
+    "description": "Dependency finder for model based on it's attribute name/names",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/support": "^5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krishna Vishwakarma",
+            "email": "krishnavcse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Krishnavcse\\ModelDependencyFinder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Krishnavcse\\ModelDependencyFinder\\ModelDependencyFinderServiceProvider"
+            ]
+        }
+    }
+}
